@@ -116,7 +116,7 @@ jQuery(function($) {
 							'<ul><li>识别代号 <code>'+ data[i].id +'</code></li></ul>'+
 							'<ul><li>状态 <code>'+ data[i].status +'</code></li></ul>'+
 							'</div></div>'+
-							'<img class="lazyload" src="img/loading.gif" data-src="https://unpkg.zhimg.com/muirgo-skin-atlas@v0.0.4/'+ data[i].img + ext + '>'+
+							'<img class="lazyload" src="img/loading.gif" data-src="https://unpkg.zhimg.com/muirgo-skin-atlas@v0.0.4/'+ data[i].img + ext + '">'+
 							'</div>'+
 						'</a>';
 				}
