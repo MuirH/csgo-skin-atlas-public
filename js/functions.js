@@ -91,9 +91,9 @@ jQuery(function($) {
 	})(window, window.jQuery || window.Zepto);
 	function getData(config, offset,size){
 		if (isSupportWebp()) {
-			ext='.webp';
+			var ext='.webp';
 		} else {
-			ext='.jpg';
+			var ext='.jpg';
 		}
 		config.isAjax = true;
 		$.ajax({
